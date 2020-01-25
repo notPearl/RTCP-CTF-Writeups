@@ -19,6 +19,6 @@ Here, my cat looks like this:
 
 # WRITEUP
 
-After extracting the files from `treemycatisin.7z', we are greeted with a large folder full of files. AFter looking around, it is discovered that there are two types of image files that are not the flag that contain text. They are identical. In order to weed out those possibilities, I listed all the files with ls -lh -p -R which lists all the files recursively and gives the file sizes in the current directory and piped the output into a text file. I then wrote a python script to parse the output and weed out any file that had the same size as the images that were not the flag. The image that was singled out contained the flag.
+After extracting the files from `treemycatisin.7z', we are greeted with a large folder full of files. AFter looking around, it is discovered that there are two types of image files that are not the flag that contain text. They are identical. In order to weed out those possibilities, I listed all the files with ls -lh -p -R which lists all the files recursively and gives the file sizes in the current directory and piped the output into a text file. I then wrote a python script (you can find this in the big tree directory) to parse the output and weed out any file that had the same size as the images that were not the flag. The image that was singled out contained the flag.
 
 #RTCP{MEOW_SHARP_PIDGION_RICE_TREE}
